@@ -20,8 +20,8 @@ intents.message_content = True
 bot = commands.Bot(command_prefix='!', intents=intents)
 
 BOT_TOKEN = os.getenv('BOT_TOKEN')
-GUILD_ID = 1404779830456133243 # Replace with your server ID
-STAFF_ROLE_ID = 14047893693734524 # Replace with your staff role ID
+GUILD_ID = 1413711949069291552 # Replace with your server ID
+STAFF_ROLE_ID = 1414103116168564787 # Replace with your staff role ID
 CATEGORY_ID = 1410714293347024324 # Replace with your category ID (optional)
 
 active_tickets = {}
