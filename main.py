@@ -5,6 +5,9 @@ import logging
 import os
 from datetime import datetime
 from dotenv import load_dotenv
+TOKEN = os.getenv("TOKEN")
+bot.run(TOKEN)
+
 
 # Load environment variables from .env file
 load_dotenv()
